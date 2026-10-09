@@ -11,7 +11,7 @@
 .brand-copy small{font:9px 'DM Mono',monospace;letter-spacing:1.1px;color:var(--muted);margin-top:5px}
 .main-nav{display:flex;align-items:center;gap:32px;font-size:12px;color:#c1cada}
 .main-nav>a:not(.nav-cta):hover,.footer-links a:hover{color:var(--cyan)}
-.nav-cta{padding:11px 16px;border:1px solid rgba(122,167,255,.4);border-radius:10px;color:#e9f0ff;background:rgba(122,167,255,.08);cursor:pointer;display:inline-flex;align-items:center}
+.nav-cta{padding:11px 16px;border:1px solid rgba(122,167,255,.4);border-radius:10px;color:#e9f0ff;background:rgba(122,167,255,.08);cursor:pointer;display:inline-flex;align-items:center;transition:background .2s,border-color .2s}
 .nav-cta span{margin-left:8px;color:var(--cyan)}
 .menu-toggle{display:none;background:transparent;border:0;padding:8px;z-index:105;cursor:pointer}
 .menu-toggle span{display:block;width:24px;height:2px;background:#fff;margin:5px}
