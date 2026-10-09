@@ -1,0 +1,109 @@
+@media(max-width:900px){
+  html{scroll-behavior:auto}
+  .section{padding:85px 0}
+  .hero{padding-top:65px}
+  .hero-grid{grid-template-columns:1fr;gap:25px}
+  .hero-copy{max-width:680px}
+  .hero-visual{min-height:440px}
+  .mock-window{width:min(460px,82%)}
+  .card-speed{right:6%}
+  .card-code{left:4%}
+  .section-heading{align-items:flex-start;flex-direction:column;gap:20px}
+  .section-intro{max-width:650px}
+  .process-grid,.faq-grid{gap:45px}
+  .local-panel{padding:35px;gap:25px}
+  .contact-panel{padding:38px}
+  .footer-main{flex-wrap:wrap}
+  .footer-links{width:100%;justify-content:flex-start}
+  .offer-grid-three{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .offer-grid-three .offer-card:last-child{grid-column:1/-1}
+  .bundle-offer{flex-wrap:wrap}
+  .bundle-copy{flex:1 1 calc(100% - 75px)}
+  .bundle-price{margin-left:67px}
+  .bundle-offer>.offer-cta{margin-left:auto}
+}
+
+@media(max-width:620px){
+  .container{width:min(100% - 34px,var(--container))}
+  .header-inner{height:72px}
+  .brand-mark{width:39px;height:39px}
+  .brand-copy strong{font-size:10px}
+  .brand-copy small{font-size:8px}
+  .menu-toggle{display:block}
+  .main-nav{display:none;position:absolute;left:17px;right:17px;top:66px;padding:15px;background:#111a2a;border:1px solid var(--line);border-radius:14px;box-shadow:0 20px 40px rgba(0,0,0,.4);flex-direction:column;align-items:stretch;gap:0;z-index:200}
+  .main-nav.is-open{display:flex}
+  .main-nav a{padding:12px 9px}
+  .main-nav .nav-cta{text-align:center;margin-top:6px;justify-content:center}
+  .section{padding:72px 0}
+  .hero{padding-top:58px;padding-bottom:26px}
+  h1{font-size:clamp(39px,11vw,54px);letter-spacing:-2.5px}
+  .hero-lead{font-size:13px}
+  .hero-actions{flex-direction:column;align-items:stretch}
+  .hero-actions .button{width:100%}
+  .hero-proof{margin-top:30px}
+  .hero-visual{min-height:350px;margin-inline:-8px}
+  .mock-window{width:88%;transform:none}
+  .mock-content{padding:16px}
+  .mock-heading{font-size:29px}
+  .mock-cards div{padding:8px}
+  .floating-card{padding:9px 10px}
+  .floating-card b{font-size:9px}
+  .floating-card small{font-size:8px}
+  .card-speed{right:0;top:24px}
+  .card-code{left:0;bottom:38px}
+  .visual-orbit.orbit-a{width:350px}
+  .visual-orbit.orbit-b{width:400px}
+  .visual-caption{font-size:7px;letter-spacing:.8px}
+  .hero-bottom{padding-top:25px;gap:9px;flex-wrap:wrap;font-size:8px}
+  .hero-bottom i{margin-inline:2px}
+  .section-heading h2,.process-grid h2,.faq-grid h2,.contact-panel h2{font-size:35px;letter-spacing:-1.7px}
+  .process-grid,.faq-grid{grid-template-columns:1fr;gap:35px}
+  .process-steps article{grid-template-columns:34px 1fr 15px;gap:10px}
+  .payment-strip{align-items:flex-start;flex-wrap:wrap;padding:17px}
+  .local-section{padding-top:10px}
+  .local-panel{grid-template-columns:1fr;padding:22px 16px;gap:20px;overflow:hidden}
+  .local-art{height:240px;width:100%;max-width:240px;margin:0 auto;order:2;position:relative;display:flex;align-items:center;justify-content:center}
+  .ring-1{width:140px;height:140px}
+  .ring-2{width:210px;height:210px}
+  .local-center{width:70px;height:70px;font-size:20px}
+  .local-center img{width:64px;height:64px}
+  .chip-a{top:5px;left:20%}
+  .chip-b{top:42%;right:0%}
+  .chip-c{bottom:5px;left:25%}
+  .contact-section{padding:65px 0}
+  .contact-panel{padding:27px 22px;flex-direction:column;align-items:stretch;gap:27px}
+  .contact-actions{min-width:0}
+  .footer-main{align-items:flex-start;flex-direction:column}
+  .footer-main>p{margin-top:0}
+  .footer-links{gap:14px;flex-wrap:wrap}
+  .footer-bottom{gap:15px;flex-direction:column}
+  .wa-widget{right:14px;bottom:14px}
+  .wa-panel{width:min(320px,calc(100vw - 28px))}
+  .wa-fab{padding:10px}
+  .wa-fab-label{display:none}
+  .hero-copy{position:relative;z-index:7}
+  .hero-visual{position:relative;z-index:6}
+  .offer-category{margin-top:30px}
+  .offer-category-head{align-items:flex-start;gap:13px}
+  .offer-category-icon{width:44px;height:44px;flex-basis:44px;font-size:22px}
+  .offer-category-head h3{font-size:21px}
+  .offer-category-head p:last-child{font-size:11px}
+  .offer-grid-two,.offer-grid-three{grid-template-columns:1fr}
+  .offer-grid-three .offer-card:last-child{grid-column:auto}
+  .offer-card{padding:21px}
+  .offer-card h4{font-size:18px}
+  .bundle-offer{padding:19px;gap:13px;align-items:flex-start}
+  .bundle-copy{flex:1 1 calc(100% - 60px)}
+  .bundle-price{margin-left:60px;min-width:0}
+  .bundle-price strong{font-size:25px}
+  .bundle-offer>.offer-cta{width:100%;margin:0}
+  .offer-price strong{font-size:26px}
+}
+
+@media(min-width:621px){
+  .menu-toggle{display:none !important}
+}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
