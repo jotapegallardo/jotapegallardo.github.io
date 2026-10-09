@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jotapegallardo.github.io/sitemap.xml
